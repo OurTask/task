@@ -22,4 +22,3 @@ input_json = '{"a": 10, "b": 20, "c": 30}'
 output_json = process_json(input_json)
 print(output_json)
 ```
-
