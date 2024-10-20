@@ -55,5 +55,5 @@ jobs:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TASK_API_TOKEN }}
         run: |
-          semantic-release publish --version $(python setup.py --version) 
+          semantic-release version --build-metadata <metadata> --changelog
           twine upload dist/*
