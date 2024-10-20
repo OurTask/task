@@ -2,7 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='ourtask_task',
-    version='0.1',
+    use_scm_version=True,
+    setup_requires=['setuptools>=42', 'setuptools_scm'],
     packages=find_packages(),
     description='A simple JSON processing package',
     author='Willem van Heemstra',
