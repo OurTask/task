@@ -3,6 +3,14 @@ task
 
 > A simple Python package for processing JSON data.
 
+## Installation
+
+Use can install the package using pip:
+
+```bash
+$ pip install task
+```
+
 ## Test the Package
 
 You can test your package in a Python environment:
