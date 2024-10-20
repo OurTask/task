@@ -1,0 +1,6 @@
+{
+    "version": "0.1.0",
+    "changelog": "CHANGELOG.md",
+    "upload_to_pypi": true,
+    "pypi_repository": "pypi"
+}
