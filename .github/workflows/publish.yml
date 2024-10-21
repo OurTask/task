@@ -50,7 +50,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build package
-        run: python setup.py sdist bdist_wheel
+        run: pip wheel --no-deps -w dist . # DEPRECATED: python setup.py sdist bdist_wheel
 
       - name: Update changelog and publish to PyPI
         env:
