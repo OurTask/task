@@ -124,6 +124,10 @@ Working with the ```TOML``` files is a trend that allows better integration with
 | python setup.py sdist | python -m build |
 | python setup.py bdist_wheel | python -m build |
 
+## We use Hatch
+
+Hatch is a modern, extensible Python project manager. See https://hatch.pypa.io/
+
 ## Learn from others
 
 - https://github.com/pyOpenSci/pyosMeta/
