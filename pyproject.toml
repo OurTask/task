@@ -4,7 +4,7 @@ requires = ["setuptools", "setuptools-scm", "wheel", "twine", "python-semantic-r
 build-backend = "hatchling.build"
 
 [project]
-name = "ourtask_task"
+name = "ourtask-task"
 dynamic = ["version"]
 description = "A simple JSON processing package."
 authors = [
