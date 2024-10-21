@@ -75,6 +75,8 @@ Your new trusted publisher is added:
 
 The Workflow in GitHub Actions now no longer requires a PyPi username, password or API token.
 
+For adjusting the GitHub Actions Workflow (here: ```publish.yml```), see [Creating a workflow definition](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#creating-a-workflow-definition)
+
 ## Build the Package
 
 You can build the package in a Python environment:
