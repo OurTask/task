@@ -57,6 +57,14 @@ See [Publishing package distribution releases using GitHub Actions CI/CD workflo
 
 ![PyPI_Publishing-001](https://github.com/user-attachments/assets/b54c5eab-f6ab-414e-b358-9c5dcfa515ea)
 
+If the projet exists already, you will see this warning:
+
+![PyPI_Publishing-002](https://github.com/user-attachments/assets/b9aaa415-1bbe-4cc2-a100-ca459b09d182)
+
+Follow the [link](https://pypi.org/manage/project/ourtask_task/settings/publishing/?project_name=ourtask_task&owner=OurTask&repository=task&workflow_filename=publish.yml&environment=release&provider=github) provided.
+
+
+
 ## Build the Package
 
 You can build the package in a Python environment:
