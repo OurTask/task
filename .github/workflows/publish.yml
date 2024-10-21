@@ -55,7 +55,7 @@ jobs:
       - name: Update changelog and publish to PyPI
         env:
           TWINE_USERNAME: __token__
-          TWINE_PASSWORD: pypi-AgEIcHlwaS5vcmcCJGE4YWMxYjJjLWFiY2UtNDgwZC1hZTE3LTU5NjNkZjNlOTJlMAACKlszLCI5NDc1ZTIzZC1kMWVmLTRkNzUtOThhMy0wNjAxYTFjNTFlZjMiXQAABiC9dTiXkpV6iodv95ucrYpYvN9fjVCFprgNqI0gV_RrWA
+          TWINE_PASSWORD: ${{ secrets.OURTASK_TASK_API_TOKEN }}
         run: |
           semantic-release version --changelog
           twine upload dist/*
