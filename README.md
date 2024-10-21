@@ -110,3 +110,10 @@ print(output_json)
 ## TOML files
 
 Working with the ```TOML``` files is a trend that allows better integration with many software languages. Reference: [Overview of Packaging for Python](https://packaging.python.org/en/latest/overview/)
+
+| Deprecated | Recommended |
+| -- | -- |
+| python setup.py install | python -m pip install |
+| python setup.py develop | python -m pip install --editable |
+| python setup.py sdist | python -m build |
+| python setup.py bdist_wheel | python -m build |
