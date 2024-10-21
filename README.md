@@ -69,7 +69,11 @@ You'll continue within the specific project:
 
 Click **Add**.
 
+Your new trusted publisher is added:
 
+![PyPI_Publishing-004](https://github.com/user-attachments/assets/18e435fc-7b3a-4f4c-bae7-81b5894f57cc)
+
+The Workflow in GitHub Actions now no longer requires a PyPi username, password or API token.
 
 ## Build the Package
 
