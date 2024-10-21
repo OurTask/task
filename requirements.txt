@@ -1,6 +1,6 @@
 pytest==8.3.3
 python-semantic-release==9.12.0
 setuptools_scm==8.1.0
-setuptools 
-wheel 
-twine
+setuptools==74.1.2
+wheel==0.44.0 
+twine==5.1.1
