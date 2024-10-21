@@ -1,9 +1,7 @@
 vscode:
   extensions:
-    - github.vscode-github-actionsww.gitpod.io/docs/introduction/learn-gitpod/gitpod-yaml)
-# and commit this file to your remote git repository to share the goodness with others.
-
+    - github.vscode-github-actions
+    # and commit this file to your remote git repository to share the goodness with others.
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
-
 tasks:
   - init: pip install -r requirements.txt
