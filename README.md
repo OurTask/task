@@ -13,6 +13,10 @@ $ pip install ourtask-task
 
 It is stored at https://pypi.org/project/ourtask-task/
 
+## GitHub Actions
+
+Make sure to have set "Read and write permissions" for the Workflow permissions for the Organization's Actions (https://github.com/organizations/OurTask/settings/actions) and save those settings.
+
 ## Test the Package
 
 You can test your package in a Python environment:
