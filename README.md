@@ -123,3 +123,7 @@ Working with the ```TOML``` files is a trend that allows better integration with
 | python setup.py develop | python -m pip install --editable |
 | python setup.py sdist | python -m build |
 | python setup.py bdist_wheel | python -m build |
+
+## Learn from others
+
+- https://github.com/pyOpenSci/pyosMeta/
