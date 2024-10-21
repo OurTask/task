@@ -1,15 +1,17 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm", "wheel", "twine", "python-semantic-release", "pytest"]
-build-backend = "setuptools.build_meta"
+requires = ["setuptools", "setuptools-scm", "wheel", "twine", "python-semantic-release", "pytest", "hatchling", "hatch-vcs"]
+# build-backend = "setuptools.build_meta"
+build-backend = "hatchling.build"
 
 [project]
 name = "ourtask_task"
+dynamic = ["version"]
+description = "A simple JSON processing package."
 authors = [
     {name = "Willem van Heemstra", email = "wvanheemstra@icloud.com"},
 ]
-description = "A simple JSON processing package."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 keywords = ["task"]
 license = {text = "MIT"}
 classifiers = [
@@ -22,11 +24,36 @@ dependencies = [
     "requests",
     'importlib-metadata; python_version<"3.10"',
 ]
-dynamic = ["version"]
+
 
 [project.optional-dependencies]
+dev = [
+    "black",
+    "pytest"
+]
 
+[project.urls]
+"Homepage" = "https://github.com/OurTask/task/"
+"Bug Reports" = "https://github.com/OurTask/task//issues"
+"Source" = "https://github.com/OurTask/task/issues"
+
+# These are entry points that allow you to surface specific functionality
+# for a user to run directly from the package.
 [project.scripts]
+
+### Hatch config ###
+
+[tool.hatch]
+version.source = "vcs"
+build.hooks.vcs.version-file = "src/pyosmeta/_version.py"
+
+[tool.hatch.envs.test]
+dependencies = ["pytest", "pytest-cov", "coverage[toml]", "pytest-mock"]
+
+[tool.hatch.envs.test.scripts]
+run-coverage = "pytest --cov-config=pyproject.toml --cov=task --cov=tests/*"
+run-no-cov = "run-coverage --no-cov"
+run-report = "run-coverage --cov-report=xml:coverage.xml"
 
 # ... other project metadata fields as listed in:
 #     https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
