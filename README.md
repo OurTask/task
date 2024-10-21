@@ -55,8 +55,6 @@ PyPI users and projects can use trusted publishers to automate their release pro
 
 See [Publishing package distribution releases using GitHub Actions CI/CD workflows](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
 
-Create a Personal Access Token to store the PyPI API Token. Visit https://github.com/settings/tokens?type=beta and choose **Generate New Token**.
-
 ## Build the Package
 
 You can build the package in a Python environment:
