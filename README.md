@@ -21,6 +21,10 @@ To (re-)format any Python files, run:
 $ black .
 ```
 
+## GitHub Environment
+
+For "release" of this package, we create a dedicated Environment in [GitHub](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-deployments/managing-environments-for-deployment#creating-an-environment).
+
 ## GitHub Actions
 
 Make sure to have set "Read and write permissions" for the Workflow permissions for the Organization's Actions (https://github.com/organizations/OurTask/settings/actions) and save those settings. 
