@@ -57,7 +57,7 @@ See [Publishing package distribution releases using GitHub Actions CI/CD workflo
 
 ![PyPI_Publishing-001](https://github.com/user-attachments/assets/b54c5eab-f6ab-414e-b358-9c5dcfa515ea)
 
-If the projet exists already, you will see this warning:
+If the project exists already, you will see this warning:
 
 ![PyPI_Publishing-002](https://github.com/user-attachments/assets/b9aaa415-1bbe-4cc2-a100-ca459b09d182)
 
