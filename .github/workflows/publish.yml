@@ -1,4 +1,4 @@
-name: Publish Package
+name: Publish Package 🐍 distributions 📦 to PyPI
 
 on:
   push:
@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine setuptools_scm python-semantic-release
+          pip install -r requirements.txt
 
       - name: Build package
         run: python setup.py sdist bdist_wheel
