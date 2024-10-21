@@ -1,4 +1,5 @@
-task
+[![Publish Package 🐍 distributions 📦 to PyPI and TestPyPI](https://github.com/OurTask/task/actions/workflows/publish.yml/badge.svg)](https://github.com/OurTask/task/actions/workflows/publish.yml)
+
 # Task
 
 > A simple Python package for processing JSON data.
