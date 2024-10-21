@@ -55,6 +55,8 @@ PyPI users and projects can use trusted publishers to automate their release pro
 
 See [Publishing package distribution releases using GitHub Actions CI/CD workflows](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
 
+![PyPI_Publishing-001](https://github.com/user-attachments/assets/b54c5eab-f6ab-414e-b358-9c5dcfa515ea)
+
 ## Build the Package
 
 You can build the package in a Python environment:
