@@ -46,6 +46,8 @@ dev = [
 [tool.hatch]
 version.source = "vcs"
 # build.hooks.vcs.version-file = "src/task/_version.py"
+[tool.hatch.build.targets.wheel]
+packages = ["task"]
 
 [tool.hatch.envs.test]
 dependencies = ["pytest", "pytest-cov", "coverage[toml]", "pytest-mock"]
