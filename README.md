@@ -23,7 +23,25 @@ $ black .
 
 ## GitHub Environment
 
-For "release" of this package, we create a dedicated Environment in [GitHub](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-deployments/managing-environments-for-deployment#creating-an-environment).
+For "release" of this package, we create a dedicated Environment in [GitHub](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-deployments/managing-environments-for-deployment#creating-an-environment). 
+
+Visit https://github.com/OurTask/task/settings/environments and choose **New Environment**. 
+
+Name the new environment **Release** and click **Configure Environment**. 
+
+**NOTE**:<br/>
+- Environment names are not case sensitive. 
+- An environment name may not exceed 255 characters and must be unique within the repository.
+
+Specify at least yourself (the owner) as one of the **Required Reviewers**, but do **not** choose **Prevent self-review**.
+
+Enable **Allow administrators to bypass configured protection rules**.
+
+Limit which branches and tags can deploy to this environment based on rules or naming patterns. We choose **main** branch only.
+
+For **Environment secrets** add the PyPI API Token taken from pypi.org. Name it "PYPI_API_TOKEN".
+
+![Environment_Release-001](https://github.com/user-attachments/assets/46ecc414-73f1-4981-814e-1600adb25288)
 
 ## GitHub Actions
 
