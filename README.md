@@ -27,6 +27,10 @@ Make sure to have set "Read and write permissions" for the Workflow permissions 
 
 ~See also [Create Python Package & Automate Publishing with GitHub Actions: A Quick Guide](https://medium.com/@pallavisinha12/create-python-package-automate-publishing-with-github-actions-a-quick-guide-35b82aa4684c).~
 
+OpenID Connect (OIDC) provides a flexible, credential-free mechanism for delegating publishing authority for a PyPI package to a trusted third party service, like GitHub Actions.
+
+PyPI users and projects can use trusted publishers to automate their release processes, without needing to use API tokens or passwords.
+
 See [Publishing package distribution releases using GitHub Actions CI/CD workflows](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
 
 
