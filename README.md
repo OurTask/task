@@ -43,6 +43,14 @@ For **Environment secrets** add the PyPI API Token taken from pypi.org. Name it 
 
 ![Environment_Release-001](https://github.com/user-attachments/assets/46ecc414-73f1-4981-814e-1600adb25288)
 
+In addition to the **Release** environment, create two more Environments (without rules):
+
+- pypi
+
+- testpypi
+
+![Environment_PyPI_Test_PyPI-002](https://github.com/user-attachments/assets/a7fa1af4-954a-44af-a1c6-6e7aabdee1b1)
+
 ## GitHub Actions
 
 Make sure to have set "Read and write permissions" for the Workflow permissions for the Organization's Actions (https://github.com/organizations/OurTask/settings/actions) and save those settings. 
