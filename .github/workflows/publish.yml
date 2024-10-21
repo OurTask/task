@@ -67,6 +67,9 @@ jobs:
       #       build
       #       --user
 
+      - name: Install Hatch
+        uses: pypa/hatch@install
+      
       - name: Build package using Hatch
         run: |
           hatch build
