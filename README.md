@@ -63,6 +63,12 @@ If the projet exists already, you will see this warning:
 
 Follow the [link](https://pypi.org/manage/project/ourtask_task/settings/publishing/?project_name=ourtask_task&owner=OurTask&repository=task&workflow_filename=publish.yml&environment=release&provider=github) provided.
 
+You'll continue within the specific project:
+
+![PyPI_Publishing-003](https://github.com/user-attachments/assets/ebc88517-5b68-4318-8534-d3fffa1feaab)
+
+Click **Add**.
+
 
 
 ## Build the Package
