@@ -81,9 +81,15 @@ Your new trusted publisher is added:
 
 ![PyPI_Publishing-004](https://github.com/user-attachments/assets/18e435fc-7b3a-4f4c-bae7-81b5894f57cc)
 
+Do the same for **Test PyPI**.
+
 The Workflow in GitHub Actions now no longer requires a PyPi username, password or API token.
 
 For adjusting the GitHub Actions Workflow (here: ```publish.yml```), see [Creating a workflow definition](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#creating-a-workflow-definition)
+
+## Tagging commit on GitHub using VS Code
+
+See [Tagging commit on GitHub using VS Code](https://www.youtube.com/watch?v=QBv6q2fgTHs). Only when you tag a commit will the package be published to **PyPI** and signed, whereas even without a tag your package will always be published to **Test PyPI**.
 
 ## Build the Package
 
